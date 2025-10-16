@@ -161,7 +161,7 @@ docker exec <contianer-id> mongodump \
 2. Copy the dump from the container to the host
 
 ```bash
-docker cp <contianer-id>:/tmp/backup ./mongo_backup.
+docker cp <contianer-id>:/tmp/backup ./mongo_backup
 ```
 
 3. Compress the dump in the source server
