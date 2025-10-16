@@ -60,7 +60,13 @@ ssh-keygen -t rsa -b 4096 -C "ec2-github-access" -f ~/.ssh/github_key
 Host github.com
     HostName github.com
     User git
-    IdentityFile ~/.ssh/<private-key>
+    IdentityFile ~/.ssh/github_key
+    IdentitiesOnly yes
+```
+
+  e)
+```bash
+ssh-keyscan github.com >> ~/.ssh/known_hosts
 ```
 
 5. clone the repo and checkout the required branch and pull the latest code
