@@ -2,7 +2,7 @@
 1. Update and upgrade the system
 ```bash 
 sudo apt update
-sudo apt upgrade –y
+sudo apt upgrade -y
 ```
 
 2. Setup the Docker (28.3.3)
