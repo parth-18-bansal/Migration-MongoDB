@@ -137,9 +137,9 @@ services:
     networks:
       - crash
 
-volumes:
-  mongo-data:
-  redis-data:
+#volumes:
+#mongo-data:
+#redis-data:
 
 networks:
   crash:
@@ -225,9 +225,9 @@ services:
     networks:
       - crash
 
-volumes:
-  mongo-data:
-  redis-data:
+#volumes:
+#mongo-data:
+#redis-data:
 
 networks:
   crash:
